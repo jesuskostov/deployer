@@ -120,7 +120,7 @@
                   v-if="domainChecking"
                   style="top: 1px"
                   class="relative w-8 h-8"
-                  src="/spinner.gif"
+                  src="~/static/spinner.gif"
                   alt="loader"
                 />
               </div>
