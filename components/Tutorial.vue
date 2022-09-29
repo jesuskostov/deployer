@@ -416,7 +416,7 @@ export default {
   padding: 20px;
   height: calc(100% - 40px);
   overflow: scroll;
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(0, 0, 0, 1);
   color: #63de00;
   font-size: 18px;
 }
