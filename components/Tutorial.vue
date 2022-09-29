@@ -6,7 +6,9 @@
     >
       <div class="col-span-1">
         <div class="relative">
-          <h1 class="test text-white text-4xl uppercase mb-4"># From JESUS</h1>
+          <h1 class="animate-bounce test text-white text-4xl uppercase mb-4">
+            # From JESUS
+          </h1>
           <p class="test font-bold text-white uppercase text-6xl mb-8">
             to the world.
           </p>
@@ -416,7 +418,7 @@ export default {
   padding: 20px;
   height: calc(100% - 40px);
   overflow: scroll;
-  background-color: rgba(0, 0, 0, 1);
+  background-color: rgba(0, 0, 0, 0.7);
   color: #63de00;
   font-size: 18px;
 }
