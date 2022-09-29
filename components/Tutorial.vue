@@ -87,7 +87,7 @@
           <header>
             <p>
               Hello, provide us your GitHub username so we can fetch your
-              repositories.
+              repositoriess.
             </p>
           </header>
           <div class="consolebody">
@@ -120,7 +120,7 @@
                   v-if="domainChecking"
                   style="top: 1px"
                   class="relative w-8 h-8"
-                  src="~/static/spinner.gif"
+                  src="/spinner.gif"
                   alt="loader"
                 />
               </div>
@@ -208,7 +208,7 @@ export default {
               <div class="ml-1 h-8">
                 <img
                   class="relative w-8 h-8"
-                  src="./spinner.gif"
+                  src="/spinner.gif"
                   alt="loader"
                 />
               </div>
@@ -238,7 +238,7 @@ export default {
                 <img
                   style="top: 1px"
                   class="relative w-8 h-8"
-                  src="./spinner.gif"
+                  src="/spinner.gif"
                   alt="loader"
                 />
               </div>
@@ -271,7 +271,7 @@ export default {
                     <img
                       style="top: 1px"
                       class="relative w-8 h-8"
-                      src="../pages/spinner.gif"
+                      src="/spinner.gif"
                       alt="loader"
                     />
                   </div>
