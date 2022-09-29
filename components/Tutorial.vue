@@ -214,7 +214,7 @@ export default {
               <div class="ml-1 h-8">
                 <img
                   class="relative w-8 h-8"
-                  src="/spinner.gif"
+                  src="~/static/spinner.gif"
                   alt="loader"
                 />
               </div>
@@ -244,7 +244,7 @@ export default {
                 <img
                   style="top: 1px"
                   class="relative w-8 h-8"
-                  src="/spinner.gif"
+                  src="~/static/spinner.gif"
                   alt="loader"
                 />
               </div>
@@ -277,7 +277,7 @@ export default {
                     <img
                       style="top: 1px"
                       class="relative w-8 h-8"
-                      src="/spinner.gif"
+                      src="~/static/spinner.gif"
                       alt="loader"
                     />
                   </div>
