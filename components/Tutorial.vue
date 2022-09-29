@@ -87,7 +87,7 @@
           <header>
             <p>
               Hello, provide us your GitHub username so we can fetch your
-              repositoriess.
+              repositories.
             </p>
           </header>
           <div class="consolebody">
