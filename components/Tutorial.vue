@@ -111,6 +111,12 @@
             >
               >
               <p class="ml-1" v-html="bash.msg" />
+              <img
+                style="top: 1px"
+                class="relative w-8 h-8"
+                src="~/static/spinner.gif"
+                alt="loader"
+              />
             </div>
             <div v-if="step === 2" class="relative -top-2 flex items-center">
               > <span class="ml-1 text-pink-400">{{ domain }}</span
