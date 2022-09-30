@@ -6,12 +6,27 @@
     >
       <div class="col-span-1">
         <div class="relative">
-          <h1 class="animate-bounce test text-white text-4xl uppercase mb-4">
-            # From JESUS <span class="relative -top-1">❤️</span>
+          <h1 class="flex test text-white text-4xl uppercase mb-6">
+            # From JESUS
+            <span class="ml-3 flex relative -top-1"
+              >❤️
+              <img
+                class="relative top-1 ml-1 w-10 h-10"
+                src="~/static/favicon.png"
+                alt=""
+              />
+            </span>
           </h1>
-          <p class="test font-bold text-white uppercase text-6xl mb-8">
-            to the world.
-          </p>
+          <div class="test flex font-bold text-white uppercase text-6xl mb-8">
+            <p
+              v-for="(l, i) in text"
+              :key="i"
+              class="animate-bounce"
+              :style="`animation-delay: ${70 * i}ms; animation-duration: 1.5s`"
+            >
+              {{ l }}
+            </p>
+          </div>
           <div class="w-4/5 h-32">
             <transition name="home">
               <div v-if="step === 1" class="relative flex items-center">
@@ -167,6 +182,7 @@ export default {
         },
       ],
       framework: "",
+      text: ["t", "o", " ", "t", "h", "e", " ", "w", "o", "r", "l", "d", "."],
     };
   },
   watch: {
