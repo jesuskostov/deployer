@@ -7,7 +7,7 @@
       <div class="col-span-1">
         <div class="relative">
           <h1 class="animate-bounce test text-white text-4xl uppercase mb-4">
-            # From JESUS ❤️
+            # From JESUS <span class="relative -top-1">❤️</span>
           </h1>
           <p class="test font-bold text-white uppercase text-6xl mb-8">
             to the world.
@@ -238,7 +238,7 @@ export default {
                 <img
                   style="top: 1px"
                   class="relative w-8 h-8"
-                  src="~/static/spinner.gif"
+                  src="./spinner.gif"
                   alt="loader"
                 />
               </div>
@@ -271,7 +271,7 @@ export default {
                     <img
                       style="top: 1px"
                       class="relative w-8 h-8"
-                      src="~/static/spinner.gif"
+                      src="./spinner.gif"
                       alt="loader"
                     />
                   </div>
